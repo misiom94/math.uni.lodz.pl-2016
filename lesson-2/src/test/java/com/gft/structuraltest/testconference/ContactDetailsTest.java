@@ -21,17 +21,4 @@ public class ContactDetailsTest {
         assertEquals(ContactDetails.validateFirstName(firstName), result);
     }
 }
-/*
-@Test
-public void shouldReturnTrueIfFirstNameIsValid(){
-	boolean expectedResult = true;
-	boolean actualRestult = ContactDetails.validateFirstName("Jacek");
-	assertEquals(expectedResult,actualRestult);
-}
-@Test
-public void shouldReturnTrueIfFirstNameIsInvalid(){
-	boolean expectedResult = false;
-	boolean actualRestult = ContactDetails.validateFirstName("J4CEK");
-	assertEquals(expectedResult,actualRestult);
-}*/
-}
+
