@@ -1,0 +1,17 @@
+Hour: ~0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, ~13, ~14, ~15, ~16, ~17, ~18, ~19, ~20, ~21, ~22, ~23
+
+AMPM: ~AM, ~PM, 24HR
+
+#the numbers in parenthesis symbolise weight
+#Weights can force PICT to prefer certain values
+#Weights are positive integers
+#One takes precedence over two
+#Weights may not always be honoured because PICT must handle two contradictory requirements
+	#Cover all combinations with the least number of test cases
+	# Choosing values according to their weights
+
+
+Day: Monday(2), Tuesday(1), Wednesay(16), Thursday, Friday, Saturday, Sunday (99)
+
+
+Month: January, February, March, April, May, June, July, August, September, October, November, December
